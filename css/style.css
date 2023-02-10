@@ -1,0 +1,36 @@
+.header {
+
+}
+.privet {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.block1 {
+    height: 100px;
+    background-color: green;
+    display: flex;
+}
+.block1-1 {
+    height: 100px;
+    background-color:  blueviolet;
+    flex: 1 1 50%;
+}
+.block1-2 {
+    height: 100px;
+    background-color: yellow;
+    flex: 1 1 50%;
+} 
+.block2 {
+    height: 100px;
+    background-color: red;
+    overflow: hidden;
+}
+.block3 {
+    height: 100px;
+    background-color: pink;
+}
+.block4 {
+    height: 100px;
+    background-color: orange;
+}
