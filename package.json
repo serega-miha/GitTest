@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "imask": "^6.4.3",
+    "jquery": "^3.6.3",
+    "lightgallery": "^2.7.1",
+    "tiny-slider": "^2.9.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
