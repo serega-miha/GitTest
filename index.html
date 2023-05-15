@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>js-script</title>
+    <!-- <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css" /> -->
+    <title>123</title>
 </head>
 <body>
+    <div class="privet"><h1>hello world!11111111</h1></div>
+    <div class="main-button">
+        <button data-modal class="btn-send">заказть звонок</button>
+    </div>
    <!-- <div class="page-wrapper _container">
     <div class="item-1 cr">Lorem ipsum dolor sit amet.</div>
     <div class="item-2 cr" >2</div>
@@ -128,19 +133,21 @@
         </div>
     </div>
 </section>
-<section class="time-interval">
+<div class="time-interval">
     <div class="interval-block">
-        <div class="start-time">knopka</div>
+        <div class="start-time btn">Старт</div> 
+        <div class="stop-time btn">Стоп</div> 
+    </div>
     <div class="big-block">
         <div class="little-block"></div>
+    
     </div>
-    </div>
-</section>
+</div>
 
 <div class="zaglushka">
         <div class="zag-header"></div>
         <div class="zag-carts">
-            <div class="zag-cart">
+            <!-- <div class="zag-cart">
                 <div class="cart__img">
                     <img src="img/vegy.jpg" alt="net">
                 </div>
@@ -184,38 +191,153 @@
                     <div class="cart__price-price">550 грн/день</div>
                 </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 <div class="new-block">
-    <div class="some-blocks">
-        <div class="one-block">
-            <div class="one-block__title">mega title</div>
-            <div class="one-block__title2">little title</div>
-            <div class="one-block__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus inventore sunt quo, nostrum voluptatem alias dolorum temporibus.</div>
-            <div class="one-block__button">send</div>
+   
+    <div class="block-currency">
+        <div class="block-currency-item">
+            <div class="rub">
+                <div class="rub-title"><h1>RUB</h1></div>
+            <input type="text" id="rub" class="input-rub">
+            </div>
+            <div class="usd">
+                <div class="usd-title"><h1>USD</h1></div>
+                <input type="text" id="usd" class="input-usd">
+            </div>
+            <div class="vizov">
+                <button data-modal class="btn-send">заказть звонок</button>
+            </div>
         </div>
-        <div class="one-block">
-            <div class="one-block__title">mega title title</div>
-            <div class="one-block__title2">little title title</div>
-            <div class="one-block__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus inventore sunt quo, nostrum voluptatem alias dolorum temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laudantium repudiandae necessitatibus minus. Facere vitae aliquam adipisci perferendis harum eaque quae rerum, magni ipsa totam possimus qui magnam earum molestias.
-            Quo eligendi, rerum quae eaque alias veniam similique iusto, molestiae commodi nisi reiciendis placeat aliquam nostrum labore debitis, non earum dolorum eveniet id molestias? Quas quisquam qui neque repellendus doloribus.
-            Illum officia sed voluptates qui omnis. Earum, obcaecati illum quia ab inventore nam odit laboriosam, similique dicta ipsum porro quis dolorum assumenda quas beatae tempora. Nostrum, voluptatum. Quibusdam, beatae assumenda.
-            Doloribus enim possimus fugiat sed qui saepe natus debitis ipsam maxime? Illo ducimus voluptate laborum, nostrum eius corporis libero natus sapiente maiores nihil consequuntur perspiciatis et voluptatum quidem voluptatem quae.</div>
-            <div class="one-block__button">send 2</div>
-        </div>
-        <div class="one-block">
-            <div class="one-block__title">mega title</div>
-            <div class="one-block__title2">little title</div>
-            <div class="one-block__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus inventore sunt quo, .</div>
-            <div class="one-block__button">send3</div>
+        <div class="block-currency-item">
+            <div class="block-picture">
+                <img src="img/post.jpg" alt="no" class="picture-block-img">
+            </div>
+            <div class="block-picture-button">
+                <a class="push-button" href="#">нажми на кнопку</a>
+            </div>
         </div>
     </div>
 </div>
+
+<div class="modal-block">
+    <div class="modal-block__body body-modal">
+        <div class="body-modal__content">
+            <!-- <div class="thanksModal"><h2>Спасибо большое мы свяжемся с вами в ближайшее время!</h2></div> -->
+            <form action="#" class="modal">
+                <div data-close class="modal__close">&times;</div>
+                <div class="body-modal__title">Мы свяжемся с вами в ближайшее время</div>
+                <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                <button class="btn-send">Отправить данные</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
+
+<div class="block-sider">
+    <div class="block-sider-container">
+        <div class="block-sider__title"><h1>Слайдер</h1></div>
+        <div class="block-sider__subtitle"><h2>Ебашим слайдер и пытаемся сделать разными способами</h2></div>
+        <div class="block-sider__window">
+            <div class="sliders-img">
+                <div class="sliders-navigation-arrows">
+                    <div class="sliders-navigation__prev">
+                        <img src="img/icons/p-left.svg" alt="">
+                    </div>
+                    <div class="sliders-navigation__next">
+                        <img src="img/icons/p-right.svg" alt="">
+                    </div>
+                </div>
+                <div class="sliders-dotts">
+                    
+                </div>
+                <div class="sliders-img-inner" id="lightgallery">
+                    <div class="slide">
+                       <a href="img/elite.jpg"> <img src="img/elite.jpg" alt="first"></a>
+                    </div>
+                    <div class="slide">
+                        <a href="img/post.jpg"> <img src="img/post.jpg" alt="first"></a>
+                    </div>
+                    <div class="slide">
+                        <a href="img/vegy.jpg"> <img src="img/vegy.jpg" alt="first"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sliders-navigation">
+                <div class="sliders-count">
+                    <span id="current">04</span>
+                    /
+                    <span id="all-slides" >08</span>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block-form">
+    <div class=" wow fadeInRight">
+        <form class="form main_form" action="#">
+          <h2>Запишитесь сегодня на <br><span>бесплатный замер</span></h2>
+          <input class="form-control form_input" name="user_name" required type="text" placeholder="Введите ваше имя">
+          <input class="form-control form_input" name="user_phone" required type="text" placeholder="Введите телефон">
+          <button class="text-uppercase btn-block button" name="submit" type="submit">Вызвать замерщика!</button>
+          <p class="form_notice">Ваши данные конфиденциальны</p>
+        </form>
+      </div>
+</div>
+<div class="some-block"></div>
+<div class="block-drag-drop">
+    <div class="block-drag-drop__body">
+        <div class="bodyDD_blocks">
+
+            <div class="block-DD red"></div>
+            <div class="block-DD blue"></div>
+            <div class="block-DD green "></div>
+            <div class="block-DD yellow"></div>
+            <div class="block-DD black"></div>
+        </div>
+        <div class="bodyDD-zoom-container">
+            
+            <!-- <div class="bodyDD_zoom" draggable="true"></div> -->
+        </div>
+    </div>
+    <div class="block-drag-drop__description">
+        <div class="description__title">Опсисание</div>
+        <div class="description__text">много текста</div>
+        <div class="description__input">
+            <div class="upload-container" id="drop-area">
+                <form class="my-form">
+                  <p>Загрузите изображения с помощью диалога выбора файлов или перетащив нужные изображения в выделенную область</p>
+                  <input class="upload-input" type="file" id="fileElem" multiple accept="image/*" >
+                  <label class="upload-button" for="fileElem">Выбрать изображения</label>
+                </form>
+                <div class="upload-gallery" id="gallery">
+                    <!-- <div class="upload-gallery__container">
+                        <img class="upload-gallery__container-img" src="./img/elite.jpg" alt="">
+                        <span class="upload-gallery__container-text">name picture</span>
+                        <a href="#" onclick="removeFilesItem(this); return false;" class="upload-gallery__container-close">x</a>
+                    </div> -->
+                    
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
 <div class="footer"></div>
 
 
+<!-- <script src="js/lightgallery.umd.js"></script> -->
 
+<!-- lightgallery plugins -->
+<!-- <script src="js/plugins/lg-thumbnail.umd.js"></script>
+<script src="js/plugins/lg-zoom.umd.js"></script> -->
+   
     <script src="script.js"></script>
 </body>
 </html>
